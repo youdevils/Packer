@@ -1,0 +1,59 @@
+#canvas1 {
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 608px;
+}
+
+#inGameOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+#inGameOverlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+body {
+    background-color: darkblue;
+}
+
+table {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: auto;
+    z-index: 2;
+}
+
+table,
+text {
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    width: auto;
+    padding: 0;
+    text-align: center;
+}
+
+table img {
+    width: 32px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

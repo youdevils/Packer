@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Packer</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div id="introArea">
+            <!-- Intended to be the pre game area, IE: start game menu etc. -->
+        </div>
+        <div id="gameArea">
+            <div id="inGameOverlay">
+                <!-- Intended to be used to show death message or game over etc. -->
+                <img id="countdown_image" src="./assets/3.png" alt="3 Countdown">
+            </div>
+            <div id="gamePlay">
+                <!-- Intended hold game play elements -->
+                <table>
+                    <tr>
+                        <td><img src="./assets/LifeIcon.png" alt="Lifes"></td>
+                        <td id="lifeText">4 / 4 Left</td>
+                        <td><img src="./assets/YellowIcon.png" alt="Coins"></td>
+                        <td id="yellowText">0 / 54 Found</td>
+                        <td><img src="./assets/RedIcon.png" alt="PowerUps"></td>
+                        <td id="redText">0 / 0 Used</td>
+                        <td><img src="./assets/ScoreIcon.png" alt="Score"></td>
+                        <td id="scoreText">50200</td>
+                    </tr>
+                </table>
+                <canvas id="canvas1"></canvas>
+            </div>
+        </div>
+        <script type="module" src="script.js"></script>
+    </body>
+
+</html>
